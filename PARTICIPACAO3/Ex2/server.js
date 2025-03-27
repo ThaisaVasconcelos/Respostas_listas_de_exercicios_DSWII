@@ -3,7 +3,7 @@
 //como retorno a mensagem de texto User's name is Amazing and User's age is 100;
 
 const express = require('express');
-const { User, printName, printAge } = require('./user.js');
+const { User, printAge, printName } = require('./user.js');
 
 const app = express();
 const port = 8080;

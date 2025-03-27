@@ -6,25 +6,21 @@ class User {
     }
 
     printName() {
-        console.log(this.name);
+        return this.name;
     }
 
     printAge() {
-        console.log(this.age);
+        return this.age;
     }
 }
 
 function printName(user) {
-    console.log(`User's name is ${user.name}`);
+    return `User's name is ${user.name}`;
 }
 
 function printAge(user) {
-    console.log(`User's age is ${user.age}`);
+    return `User's age is ${user.age}`;
 }
-
-const user1 = new User('Teste', 10);
-printName(user1);
-printAge(user1);
 
 module.exports ={
     User,
