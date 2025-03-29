@@ -8,5 +8,4 @@ const text = fs.readFileSync(localFile, "utf-8");
 console.log(text);
 const end = Date.now();
 
-console.log(text);
 console.log(`Total time(de uma só vez): ${end - init} ms`); //8724 ms 
